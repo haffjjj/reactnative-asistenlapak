@@ -44,8 +44,6 @@ export default class Main extends Component {
 
                     <Content>
 
-                        {/* {this.state.loading == true ? (<Spinner color='red' />) : null} */}
-
                         {(this.state.loading == false) && (this.state.stores.length) == 0 ? (
                             <Text style={{ textAlign: 'center', marginTop: 10 }}>No data</Text>
                         ) : null}
